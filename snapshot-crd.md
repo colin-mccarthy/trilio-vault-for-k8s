@@ -41,17 +41,7 @@ $ kubectl apply -f https://raw.githubusercontent.com/kubernetes-csi/external-sna
 $ kubectl apply -f https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/${SNAPSHOTTER_VERSION}/deploy/kubernetes/snapshot-controller/setup-snapshot-controller.yaml
 ```
 
-No Luck...
 
-```
-error: the server doesn't have a resource type "volumesnapshotclasses"
-colin@cmccarth-mac trilio % kubectl get volumesnapshots.snapshot.storage.k8s.io
-error: the server doesn't have a resource type "volumesnapshots"
-colin@cmccarth-mac trilio % kubectl get volumesnapshotcontents.snapshot.storage.k8s.io
-error: the server doesn't have a resource type "volumesnapshotcontents"
-colin@cmccarth-mac trilio % kubectl apply -f https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/${SNAPSHOTTER_VERSION}/config/crd/snapshot.storage.k8s.io_volumesnapshotclasses.yaml
-error: unable to read URL "https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter//config/crd/snapshot.storage.k8s.io_volumesnapshotclasses.yaml", server reported 404 Not Found, status code=404
-```
 
 
 
