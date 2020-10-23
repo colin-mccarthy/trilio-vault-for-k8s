@@ -14,3 +14,9 @@ Set Up
 https://docs.trilio.io/kubernetes/overview/getting-started
 
 
+HostPath CSI Driver for TrilioVault for Kubernetes
+
+https://docs.trilio.io/kubernetes/appendix/csi-drivers/hostpath-for-tvk
+
+
+
