@@ -1,0 +1,9 @@
+apiVersion: triliovault.trilio.io/v1
+kind: Policy
+metadata:
+  name: demo-policy
+spec:
+  type: Cleanup
+  default: false
+  cleanupConfig:
+    backupDays: 30
