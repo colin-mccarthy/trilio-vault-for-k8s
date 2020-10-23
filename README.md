@@ -8,3 +8,9 @@ https://docs.trilio.io/kubernetes/appendix/triliovault-for-kubernetes-preflight-
 Install
 
 https://docs.trilio.io/kubernetes/use-triliovault/installing-triliovault#prerequisites-for-triliovault-for-kubernetes
+
+Set Up
+
+https://docs.trilio.io/kubernetes/overview/getting-started
+
+
