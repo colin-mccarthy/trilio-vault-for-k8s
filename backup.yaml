@@ -1,0 +1,11 @@
+apiVersion: triliovault.trilio.io/v1
+kind: Backup
+metadata:
+  name: mysql-label-backup
+spec:
+  type: Full
+  scheduleType: Periodic
+  backupPlan:
+    name: mysql-label-backupplan
+    namespace: default
+    
