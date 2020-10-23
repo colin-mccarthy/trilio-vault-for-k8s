@@ -1,0 +1,15 @@
+apiVersion: triliovault.trilio.io/v1
+kind: Restore
+metadata:
+  name: demo-restore
+spec:
+  backupPlan:
+    name: mysql-label-backupplan
+  source:
+    type: Backup
+    backup:
+      name: mysql-label-backup
+    target:
+      name: demo-s3-target
+  restoreNamespace: restore-ns
+  skipIfAlreadyExists: true
